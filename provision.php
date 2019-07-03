@@ -66,18 +66,20 @@ $replace_file_content = function () use ( $args, $iterator ) {
 	foreach ( $iterator as $info ) {
 		$ext = $info->getExtension();
 
-		if ( $ext != 'php' && $ext != 'js' ) {
+		if ( $ext != 'php'
+		     && $ext != 'js'
+		     && $ext != 'json' ) {
 			continue;
 		}
 
 		$files[] = $info->getPathname();
 	}
 
-	if ( ! empty( $args['dry-run'] ) ) {
-		return;
-	}
-
 	foreach ( $files as $file ) {
+		if ( NEW_FILENAME_PREFIX ) {
+			file_put_contents( $file, str_replace( OLD_FILENAME_PREFIX, NEW_FILENAME_PREFIX, file_get_contents( $file ) ) );
+		}
+
 		if ( NEW_FUNCTION_PREFIX ) {
 			file_put_contents( $file, str_replace( OLD_FUNCTION_PREFIX, NEW_FUNCTION_PREFIX, file_get_contents( $file ) ) );
 		}

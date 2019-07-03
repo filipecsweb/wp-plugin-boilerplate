@@ -1,10 +1,10 @@
 <?php
 
-namespace VoltsWaitlist;
+namespace MyPlugin;
 
-use VoltsWaitlist\Functions;
+use MyPlugin\Functions;
 
-class Volts_Waitlist {
+class My_Plugin {
 	/**
 	 * @var     object $instance
 	 */

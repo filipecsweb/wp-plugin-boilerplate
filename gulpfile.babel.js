@@ -1,7 +1,3 @@
-/**
- * @link    https://css-tricks.com/gulp-for-wordpress-initial-setup/
- */
-
 import {dest, parallel, series, src, watch} from 'gulp';
 import sass from 'gulp-sass';
 import cleancss from 'gulp-clean-css';

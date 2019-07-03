@@ -6,6 +6,6 @@
 
     const sel = {};
 
-    const ajax_url = _l10n_public_volts_waitlist.ajax_url;
+    const ajax_url = _l10n_public_my_plugin.ajax_url;
 
 })(jQuery);

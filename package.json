@@ -1,25 +1,22 @@
 {
-  "name": "volts-waitlist",
-  "version": "0.1.0",
-  "main": "Gruntfile.js",
-  "author": "Filipe Seabra <filipe@voltsdigital.com.br>",
-  "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "@babel/register": "^7.4.4",
-    "autoprefixer": "^9.6.0",
-    "babel-loader": "^8.0.6",
-    "grunt": "^1.0.4",
-    "grunt-wp-i18n": "^1.0.3",
-    "grunt-wp-readme-to-markdown": "~1.0.0",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-imagemin": "^6.0.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "jquery": "^3.4.1",
-    "vinyl-named": "^1.1.0",
-    "webpack-stream": "^5.2.1"
-  }
+    "name": "my-plugin",
+    "version": "0.1.0",
+    "main": "gulpfile.babel.js",
+    "author": "Filipe Seabra <filipe@seusobrinho.com.br>",
+    "devDependencies": {
+        "@babel/core": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
+        "@babel/register": "^7.4.4",
+        "autoprefixer": "^9.6.0",
+        "babel-loader": "^8.0.6",
+        "gulp": "^4.0.2",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-imagemin": "^6.0.0",
+        "gulp-postcss": "^8.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "jquery": "^3.4.1",
+        "vinyl-named": "^1.1.0",
+        "webpack-stream": "^5.2.1"
+    }
 }

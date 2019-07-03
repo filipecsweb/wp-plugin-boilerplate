@@ -1,12 +1,12 @@
 <?php
 
-namespace VoltsWaitlist\Deactivator;
+namespace MyPlugin\Deactivator;
 
 /**
  * Fired during plugin deactivation.
  *
  * @since       1.0.0
- * @package     Volts_Waitlist
+ * @package     My_Plugin
  * @subpackage  Inc
  * @author      Filipe Seabra
  */

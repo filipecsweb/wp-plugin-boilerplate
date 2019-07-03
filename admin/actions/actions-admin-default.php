@@ -1,8 +1,8 @@
 <?php
 
-namespace VoltsWaitlist\Actions\AdminDefault;
+namespace MyPlugin\Actions\AdminDefault;
 
-use VoltsWaitlist\Functions;
+use MyPlugin\Functions;
 
 /**
  * Register the stylesheets for the admin area.

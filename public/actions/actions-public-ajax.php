@@ -1,4 +1,4 @@
 <?php
 
-namespace VoltsWaitlist\Actions\PublicAjax;
+namespace MyPlugin\Actions\PublicAjax;
 

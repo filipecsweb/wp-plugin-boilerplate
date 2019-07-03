@@ -1,4 +1,4 @@
 <?php
 
-namespace VoltsWaitlist\Actions\PublicCron;
+namespace MyPlugin\Actions\PublicCron;
 

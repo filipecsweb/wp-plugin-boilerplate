@@ -1,8 +1,8 @@
 <?php
 
-namespace VoltsWaitlist\Actions\PublicDefault;
+namespace MyPlugin\Actions\PublicDefault;
 
-use VoltsWaitlist\Functions;
+use MyPlugin\Functions;
 
 /**
  * Hooked into `wp_enqueue_scripts` action hook.
@@ -73,7 +73,7 @@ function enqueue_public_scripts() {
 		);
 
 		if ( ! empty( $handle['l10n'] ) ) {
-			wp_localize_script( $handle['handle'], '_l10n_public_volts_waitlist', $handle['l10n'] );
+			wp_localize_script( $handle['handle'], '_l10n_public_my_plugin', $handle['l10n'] );
 		}
 
 		wp_enqueue_script( $handle['handle'] );

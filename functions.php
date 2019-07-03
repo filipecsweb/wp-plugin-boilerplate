@@ -1,6 +1,6 @@
 <?php
 
-namespace VoltsWaitlist\Functions;
+namespace MyPlugin\Functions;
 
 function plugin_path() {
 	return untrailingslashit( plugin_dir_path( __FILE__ ) );
@@ -15,7 +15,7 @@ function plugin_version() {
 }
 
 function plugin_slug() {
-	return 'volts-waitlist';
+	return 'my-plugin';
 }
 
 function the_partial_part( $slug, $name = null, $args = [] ) {

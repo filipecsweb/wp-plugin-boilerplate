@@ -1,4 +1,4 @@
 <?php
 
-namespace VoltsWaitlist\Actions\PublicTheme;
+namespace MyPlugin\Actions\PublicTheme;
 

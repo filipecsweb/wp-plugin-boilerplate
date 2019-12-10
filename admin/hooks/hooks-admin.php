@@ -3,7 +3,7 @@
 /**
  * @see \MyPlugin\Actions\AdminDefault\enqueue_admin_styles()
  */
-//add_action( 'admin_enqueue_scripts', 'MyPlugin\Actions\AdminDefaultenqueue_admin_styles' );
+//add_action( 'admin_enqueue_scripts', 'MyPlugin\Actions\AdminDefault\enqueue_admin_styles' );
 
 /**
  * @see \MyPlugin\Actions\AdminDefault\enqueue_admin_scripts()

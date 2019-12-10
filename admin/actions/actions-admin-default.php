@@ -57,7 +57,7 @@ function enqueue_admin_scripts( $hook ) {
 	$handles = array(
 		array(
 			'handle'    => 'admin-' . Functions\plugin_slug(), // Default js file for all plugin pages.
-			'src'       => Functions\plugin_url() . '/assets/dist/js/bundle-admin.css',
+			'src'       => Functions\plugin_url() . '/assets/dist/js/bundle-admin.js',
 			'deps'      => array( 'jquery' ),
 			'ver'       => Functions\plugin_version(),
 			'in_footer' => true,
